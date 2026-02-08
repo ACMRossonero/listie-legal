@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Listie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --sage-green: #6B9080;
+            --sage-green-dark: #6B8F6B;
+            --bg-cream: #FDFBF7;
+            --text-dark: #2C3E3C;
+            --text-secondary: #5F6F6D;
+            --border-light: #E5E7E6;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background-color: var(--bg-cream);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            border-bottom: 2px solid var(--border-light);
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--sage-green);
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--sage-green-dark);
+            margin-bottom: 16px;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--sage-green-dark);
+            margin-top: 48px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-light);
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        ul, ol {
+            margin: 20px 0 20px 24px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+
+        a {
+            color: var(--sage-green);
+            text-decoration: none;
+            border-bottom: 1px solid var(--sage-green);
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--sage-green-dark);
+            border-bottom-color: var(--sage-green-dark);
+        }
+
+        .meta {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 40px;
+            padding: 16px 20px;
+            background: white;
+            border-left: 4px solid var(--sage-green);
+            border-radius: 4px;
+        }
+
+        .highlight {
+            background-color: rgba(107, 144, 128, 0.1);
+            padding: 24px;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+            margin: 32px 0;
+        }
+
+        .highlight p {
+            margin-bottom: 12px;
+        }
+
+        .highlight p:last-child {
+            margin-bottom: 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid var(--border-light);
+            margin: 48px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px 40px;
+            border-top: 2px solid var(--border-light);
+            margin-top: 80px;
+            color: var(--text-secondary);
+        }
+
+        footer .logo {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        footer .tagline {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            border-bottom: none;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 20px 16px;
+            }
+
+            header {
+                padding: 40px 16px 30px;
+                margin-bottom: 40px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 24px;
+                margin-top: 36px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .highlight {
+                padding: 20px;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Listie</div>
+        <div class="tagline">Your Meals. 1 Tap.</div>
+    </header>
+
+    <div class="container">
+        <h1>Terms of Service</h1>
+        
+        <div class="meta">
+            <strong>Effective Date:</strong> February 8, 2026<br>
+            <strong>Last Updated:</strong> February 8, 2026
+        </div>
+
+        <h2>Welcome to Listie</h2>
+        <p>These Terms govern your use of Listie. By using the app, you agree to these Terms.</p>
+        <div class="highlight">
+            <p><strong>The short version:</strong> Use Listie to organize your meals. Be nice. Don't abuse the app. If you subscribe, you agree to pay 4.99€/month. You can cancel anytime.</p>
+            <p>If you don't agree, don't use Listie.</p>
+        </div>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or using Listie, you agree to:</p>
+        <ul>
+            <li>These Terms of Service</li>
+            <li>Our Privacy Policy</li>
+            <li>Apple's Terms of Service</li>
+        </ul>
+        <p><strong>Age Requirement:</strong> You must be <strong>9 years or older</strong> to use Listie.</p>
+        <p><strong>Capacity:</strong> You confirm you have the legal capacity to enter into this agreement.</p>
+
+        <h2>2. The Listie Service</h2>
+
+        <h3>What Listie Does</h3>
+        <p>Listie helps you:</p>
+        <ul>
+            <li>Organize your meals in a personal list</li>
+            <li>Generate weekly meal plans from your dishes</li>
+            <li>Create automatic grocery lists</li>
+            <li>Manage meal preferences (lunch, dinner, timing)</li>
+        </ul>
+
+        <h3>What Listie Does NOT Do</h3>
+        <p>Listie does not:</p>
+        <ul>
+            <li>Suggest recipes (you add your own meals)</li>
+            <li>Provide nutritional advice</li>
+            <li>Calculate calories</li>
+            <li>Deliver groceries</li>
+            <li>Guarantee weight loss or health outcomes</li>
+        </ul>
+        <p><strong>Disclaimer:</strong> Listie is a meal organization tool, not a medical, nutritional, or health service.</p>
+
+        <h2>3. Free Trial & Subscription</h2>
+
+        <h3>Free Trial: 3 Meal Plan Generations</h3>
+        <p><strong>What you get for free:</strong></p>
+        <ul>
+            <li>Create 3 weekly meal plans</li>
+            <li>Full access to all features</li>
+            <li>No credit card required</li>
+            <li>No automatic billing</li>
+        </ul>
+
+        <p><strong>After 3 generations:</strong></p>
+        <ul>
+            <li>You must subscribe to Listie+ to continue</li>
+            <li>Or keep using your last confirmed meal plan (read-only)</li>
+        </ul>
+
+        <h3>Listie+ Subscription</h3>
+        <p><strong>Price:</strong> 4.99€/month (or equivalent in your currency)</p>
+
+        <p><strong>What you get:</strong></p>
+        <ul>
+            <li>Unlimited weekly meal plan generations</li>
+            <li>Unlimited grocery lists</li>
+            <li>All features unlocked</li>
+            <li>Priority support</li>
+        </ul>
+
+        <p><strong>Billing:</strong></p>
+        <ul>
+            <li>Charged monthly via Apple In-App Purchase</li>
+            <li>Auto-renews every month unless canceled</li>
+            <li>Price may vary by region (Apple sets local prices)</li>
+        </ul>
+
+        <p><strong>Payment:</strong></p>
+        <ul>
+            <li>Processed by Apple (not Listie)</li>
+            <li>Uses your Apple ID payment method</li>
+            <li>See Apple's payment terms for details</li>
+        </ul>
+
+        <h2>4. Cancellation & Refunds</h2>
+
+        <h3>Canceling Your Subscription</h3>
+        <p><strong>You can cancel anytime:</strong></p>
+        <ol>
+            <li>iOS Settings → [Your Name] → Subscriptions</li>
+            <li>Select Listie</li>
+            <li>Tap "Cancel Subscription"</li>
+        </ol>
+
+        <p><strong>After cancellation:</strong></p>
+        <ul>
+            <li>Access continues until end of current billing period</li>
+            <li>No partial refunds for unused time</li>
+            <li>You can resubscribe anytime</li>
+        </ul>
+
+        <h3>Refund Policy</h3>
+        <p><strong>Refunds are handled by Apple, not Listie.</strong></p>
+        <p>To request a refund:</p>
+        <ol>
+            <li>Go to <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a></li>
+            <li>Sign in with your Apple ID</li>
+            <li>Find Listie subscription</li>
+            <li>Request refund</li>
+        </ol>
+        <p><strong>Apple's refund policy applies:</strong></p>
+        <ul>
+            <li>Typically: No refunds for subscriptions</li>
+            <li>Exceptions: Technical issues, accidental purchase</li>
+            <li>Apple decides (we have no control)</li>
+        </ul>
+        <p><strong>We cannot issue refunds directly.</strong></p>
+
+        <h2>5. Your Responsibilities</h2>
+
+        <h3>Account Security</h3>
+        <ul>
+            <li>Keep your Apple ID secure</li>
+            <li>Don't share your account</li>
+            <li>You're responsible for all activity under your account</li>
+        </ul>
+
+        <h3>Acceptable Use</h3>
+        <p><strong>You agree to:</strong></p>
+        <ul>
+            <li>Use Listie for personal, non-commercial purposes</li>
+            <li>Not abuse or overload our systems</li>
+            <li>Not reverse-engineer the app</li>
+            <li>Not use automated tools (bots, scripts)</li>
+        </ul>
+
+        <p><strong>You agree NOT to:</strong></p>
+        <ul>
+            <li>Violate any laws</li>
+            <li>Infringe intellectual property</li>
+            <li>Upload malicious content</li>
+            <li>Resell or redistribute Listie</li>
+        </ul>
+
+        <h3>Your Content (Meal Data)</h3>
+        <p><strong>You own your data:</strong></p>
+        <ul>
+            <li>Your meal names, ingredients, recipes</li>
+            <li>Your meal plans and grocery lists</li>
+            <li>Your preferences and settings</li>
+        </ul>
+
+        <p><strong>We do NOT:</strong></p>
+        <ul>
+            <li>Claim ownership of your meals</li>
+            <li>Share your meals with others</li>
+            <li>Use your meals for marketing</li>
+        </ul>
+
+        <h2>6. Intellectual Property</h2>
+
+        <h3>Our Rights</h3>
+        <p><strong>Listie owns:</strong></p>
+        <ul>
+            <li>The Listie app (code, design, features)</li>
+            <li>The Listie name and logo</li>
+            <li>All app content (text, graphics, UI)</li>
+        </ul>
+
+        <p><strong>You may NOT:</strong></p>
+        <ul>
+            <li>Copy or reproduce Listie</li>
+            <li>Create derivative works</li>
+            <li>Use our name/logo without permission</li>
+            <li>Claim you created Listie</li>
+        </ul>
+
+        <h2>7. Disclaimers & Limitations</h2>
+
+        <h3>No Warranties</h3>
+        <p><strong>Listie is provided "AS IS" and "AS AVAILABLE".</strong></p>
+        <p>We do NOT guarantee:</p>
+        <ul>
+            <li>Uninterrupted service (we may have downtime)</li>
+            <li>Error-free operation (bugs happen)</li>
+            <li>Specific results (meal satisfaction is subjective)</li>
+            <li>Compatibility with all devices (iOS 13+ required)</li>
+        </ul>
+
+        <h3>Limitation of Liability</h3>
+        <p><strong>To the maximum extent permitted by law:</strong></p>
+        <p>We are NOT liable for:</p>
+        <ul>
+            <li>Lost data (back up your meal lists!)</li>
+            <li>Lost profits or business</li>
+            <li>Indirect or consequential damages</li>
+            <li>Damages exceeding €4.99/month</li>
+        </ul>
+
+        <p><strong>We ARE responsible for:</strong></p>
+        <ul>
+            <li>Gross negligence</li>
+            <li>Intentional misconduct</li>
+            <li>Anything that cannot be excluded by law</li>
+        </ul>
+
+        <p><strong>Nothing in these Terms limits your statutory rights</strong> (EU consumer protection, etc.)</p>
+
+        <h2>8. Changes to Service</h2>
+
+        <h3>We May Change Listie</h3>
+        <p><strong>We reserve the right to:</strong></p>
+        <ul>
+            <li>Add or remove features</li>
+            <li>Change the app design</li>
+            <li>Modify pricing (with notice)</li>
+            <li>Discontinue Listie (with notice)</li>
+        </ul>
+
+        <p><strong>Notice:</strong></p>
+        <ul>
+            <li>Major changes: 30 days notice</li>
+            <li>Price changes: Notice before next billing cycle</li>
+        </ul>
+
+        <h2>9. Termination</h2>
+
+        <h3>We May Terminate Your Access If:</h3>
+        <ul>
+            <li>You violate these Terms</li>
+            <li>You abuse the service</li>
+            <li>Required by law</li>
+        </ul>
+
+        <h3>You May Terminate Anytime</h3>
+        <ul>
+            <li>Cancel subscription (iOS Settings)</li>
+            <li>Delete the app</li>
+        </ul>
+
+        <h2>10. Governing Law & Disputes</h2>
+
+        <h3>Governing Law</h3>
+        <p>These Terms are governed by:</p>
+        <ul>
+            <li><strong>European Union law</strong> (if you're in EU)</li>
+            <li><strong>French law</strong> (if you're in France)</li>
+            <li><strong>Your local consumer protection laws</strong> (where stronger)</li>
+        </ul>
+
+        <h3>Dispute Resolution</h3>
+        <p><strong>For EU Consumers:</strong></p>
+        <ol>
+            <li><strong>Contact us first:</strong> alwin.moceri@gmail.com</li>
+            <li><strong>EU Online Dispute Resolution:</strong> <a href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a></li>
+            <li><strong>Your local courts:</strong> You may sue in your country of residence</li>
+        </ol>
+
+        <h2>11. Contact Us</h2>
+        <p>Questions about these Terms?</p>
+        <p><strong>Email:</strong> alwin.moceri@gmail.com<br>
+        <strong>Response Time:</strong> Within 48 hours</p>
+
+        <h2>12. Apple Requirements</h2>
+
+        <h3>Apple App Store Terms</h3>
+        <p><strong>You acknowledge:</strong></p>
+        <ul>
+            <li>These Terms are between you and Listie (not Apple)</li>
+            <li>Apple has no obligation to provide support</li>
+            <li>Apple is not responsible for the app or content</li>
+        </ul>
+
+        <p><strong>Apple's Role:</strong></p>
+        <ul>
+            <li>Provides App Store (distribution platform)</li>
+            <li>Processes payments (In-App Purchases)</li>
+            <li>Handles refunds (per Apple policy)</li>
+        </ul>
+
+        <h3>In-App Purchases</h3>
+        <p><strong>Subscriptions are processed by Apple:</strong></p>
+        <ul>
+            <li>Subject to Apple's payment terms</li>
+            <li>Managed in iOS Settings → Subscriptions</li>
+            <li>Refunds handled by Apple (reportaproblem.apple.com)</li>
+        </ul>
+
+        <hr>
+
+        <h2>Summary</h2>
+
+        <h3>The Deal</h3>
+        <ul>
+            <li>3 free meal plan generations to try</li>
+            <li>Then 4.99€/month for unlimited</li>
+            <li>Cancel anytime (no hard feelings)</li>
+            <li>Your meal data stays on your device</li>
+            <li>We're here to help: alwin.moceri@gmail.com</li>
+        </ul>
+
+        <h3>Be Cool</h3>
+        <ul>
+            <li>Use Listie as intended</li>
+            <li>Don't abuse the service</li>
+            <li>Respect intellectual property</li>
+        </ul>
+
+        <h3>We'll Be Cool</h3>
+        <ul>
+            <li>Keep improving Listie</li>
+            <li>Protect your privacy</li>
+            <li>Support you when needed</li>
+        </ul>
+
+        <p style="text-align: center; margin-top: 48px; color: var(--text-secondary);">
+            <strong>Last updated:</strong> February 8, 2026
+        </p>
+    </div>
+
+    <footer>
+        <div class="logo">Listie</div>
+        <div class="tagline">Your Meals. 1 Tap.</div>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="support.html">Support</a>
+        </div>
+    </footer>
+</body>
+</html>
