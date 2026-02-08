@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Listie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --sage-green: #6B9080;
+            --sage-green-dark: #6B8F6B;
+            --bg-cream: #FDFBF7;
+            --text-dark: #2C3E3C;
+            --text-secondary: #5F6F6D;
+            --border-light: #E5E7E6;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            background-color: var(--bg-cream);
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+            border-bottom: 2px solid var(--border-light);
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--sage-green);
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--sage-green-dark);
+            margin-bottom: 16px;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--sage-green-dark);
+            margin-top: 48px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border-light);
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+            color: var(--text-secondary);
+        }
+
+        strong {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        ul, ol {
+            margin: 20px 0 20px 24px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 12px;
+            padding-left: 8px;
+        }
+
+        a {
+            color: var(--sage-green);
+            text-decoration: none;
+            border-bottom: 1px solid var(--sage-green);
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--sage-green-dark);
+            border-bottom-color: var(--sage-green-dark);
+        }
+
+        .highlight {
+            background-color: rgba(107, 144, 128, 0.1);
+            padding: 24px;
+            border-radius: 8px;
+            border-left: 4px solid var(--sage-green);
+            margin: 32px 0;
+        }
+
+        .highlight p {
+            margin-bottom: 12px;
+        }
+
+        .highlight p:last-child {
+            margin-bottom: 0;
+        }
+
+        .contact-box {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            border: 2px solid var(--sage-green);
+            margin: 32px 0;
+            text-align: center;
+        }
+
+        .contact-box strong {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--sage-green-dark);
+            font-size: 18px;
+        }
+
+        .faq-item {
+            margin-bottom: 32px;
+        }
+
+        .faq-q {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .faq-a {
+            color: var(--text-secondary);
+            margin-bottom: 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid var(--border-light);
+            margin: 48px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 60px 20px 40px;
+            border-top: 2px solid var(--border-light);
+            margin-top: 80px;
+            color: var(--text-secondary);
+        }
+
+        footer .logo {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        footer .tagline {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+        }
+
+        .footer-links a {
+            font-size: 14px;
+            border-bottom: none;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 20px 16px;
+            }
+
+            header {
+                padding: 40px 16px 30px;
+                margin-bottom: 40px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            h2 {
+                font-size: 24px;
+                margin-top: 36px;
+            }
+
+            h3 {
+                font-size: 18px;
+            }
+
+            .highlight {
+                padding: 20px;
+            }
+
+            .footer-links {
+                flex-direction: column;
+                gap: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Listie</div>
+        <div class="tagline">Your Meals. 1 Tap.</div>
+    </header>
+
+    <div class="container">
+        <h1>Support</h1>
+        
+        <p><strong>Need help with Listie?</strong> We're here for you.</p>
+
+        <div class="contact-box">
+            <strong>📧 Contact Us</strong>
+            <p style="margin: 0;"><strong>Email:</strong> <a href="mailto:alwin.moceri@gmail.com">alwin.moceri@gmail.com</a></p>
+            <p style="margin: 8px 0 0 0; font-size: 14px;"><strong>Response Time:</strong> Within 48 hours</p>
+        </div>
+
+        <h2>❓ Frequently Asked Questions</h2>
+
+        <h3>Getting Started</h3>
+        
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: How do I create my first meal plan?</strong></p>
+            <p class="faq-a">Go to the "List" tab → Add at least 7 dishes in "Dishes" tab → Return to "List" → Tap "Create my week" → Confirm when happy with the plan.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: What's a "dish"?</strong></p>
+            <p class="faq-a">Anything you eat! Home-cooked meals, takeout spots, restaurants, or meal prep. Name it however you want: "Pasta Carbonara", "Chicken from bistro", "McDonald's".</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Do I need internet to use Listie?</strong></p>
+            <p class="faq-a">No. Listie works 100% offline. Your data is stored locally on your device.</p>
+        </div>
+
+        <h3>Free Trial & Subscription</h3>
+        
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: How many free meal plans do I get?</strong></p>
+            <p class="faq-a">You get 3 free weekly meal plan generations. No credit card required.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: What happens after 3 free generations?</strong></p>
+            <p class="faq-a">You'll need to subscribe to Listie+ (4.99€/month) to create new meal plans. Your last confirmed meal plan stays accessible (read-only).</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Can I cancel anytime?</strong></p>
+            <p class="faq-a">Absolutely. iOS Settings → [Your Name] → Subscriptions → Listie → Cancel.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: How do I get a refund?</strong></p>
+            <p class="faq-a">Refunds are handled by Apple: <a href="https://reportaproblem.apple.com">https://reportaproblem.apple.com</a></p>
+        </div>
+
+        <h3>Using Listie</h3>
+        
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: How do I add a dish?</strong></p>
+            <p class="faq-a">Dishes tab → Tap "+" button → Fill in the details → Save.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: What are ingredients for?</strong></p>
+            <p class="faq-a">Ingredients automatically generate your grocery list. Add them if you want an automatic list, or leave blank if you just want the meal plan.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Can I add recipe links?</strong></p>
+            <p class="faq-a">Yes! When creating a dish, there's an optional "Recipe URL" field. The link will appear in your meal plan for quick access.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: How does anti-repetition work?</strong></p>
+            <p class="faq-a">Enable it in the "List" tab settings. Listie will avoid dishes from your previous week when generating the new week.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Can I modify a confirmed meal plan?</strong></p>
+            <p class="faq-a">Yes! Go to the "List" tab → Tap "Modify" → Change individual meals → The grocery list updates automatically.</p>
+        </div>
+
+        <h3>Grocery List</h3>
+        
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: How is the grocery list created?</strong></p>
+            <p class="faq-a">Listie automatically compiles ingredients from all dishes in your confirmed meal plan, organized by category.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Can I add items manually?</strong></p>
+            <p class="faq-a">Yes! In the "Grocery" tab, tap "Add an article" to add non-meal items (e.g., toilet paper, coffee).</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Do manual items disappear when I create a new week?</strong></p>
+            <p class="faq-a">No. Manual items persist across weeks. Check them off, uncheck, or delete as needed.</p>
+        </div>
+
+        <h3>Data & Privacy</h3>
+        
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Where is my data stored?</strong></p>
+            <p class="faq-a">Locally on your iPhone. Listie does NOT upload your meals, plans, or grocery lists to the cloud.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: What happens if I delete the app?</strong></p>
+            <p class="faq-a">⚠️ <strong>Important:</strong> All your local data (dishes, plans, lists) will be permanently deleted when you delete the app.</p>
+            <p class="faq-a">Your subscription remains active (managed by Apple), but your meal data is lost.</p>
+            <p class="faq-a" style="margin-top: 12px; padding: 12px; background-color: rgba(107, 144, 128, 0.1); border-radius: 4px;"><strong>📦 iCloud backup coming soon!</strong> We're adding automatic backup to keep your data safe across devices.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: Does Listie track me?</strong></p>
+            <p class="faq-a">No. We don't track you across apps or websites. See our <a href="privacy-policy.html">Privacy Policy</a> for details.</p>
+        </div>
+
+        <h3>Technical Issues</h3>
+        
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: The app crashes when I try to generate a week.</strong></p>
+            <p class="faq-a">Make sure you have at least 7 dishes added. If the issue persists, email us with your device model and iOS version.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: My grocery list is empty.</strong></p>
+            <p class="faq-a">Check that your dishes have ingredients added. No ingredients = no automatic grocery list.</p>
+        </div>
+
+        <div class="faq-item">
+            <p class="faq-q"><strong>Q: The app won't open / is stuck.</strong></p>
+            <p class="faq-a">Try force-quitting the app (swipe up from bottom) and reopening. If that doesn't work, restart your iPhone. If still stuck, email us.</p>
+        </div>
+
+        <hr>
+
+        <h2>🐛 Report a Bug</h2>
+        <p>Found a bug? Help us fix it!</p>
+        <p><strong>Email:</strong> <a href="mailto:alwin.moceri@gmail.com">alwin.moceri@gmail.com</a><br>
+        <strong>Subject:</strong> "Bug Report: [Short description]"</p>
+
+        <p><strong>Please include:</strong></p>
+        <ol>
+            <li>What you were trying to do</li>
+            <li>What happened instead</li>
+            <li>Steps to reproduce</li>
+            <li>Screenshots (if applicable)</li>
+            <li>Device model + iOS version</li>
+        </ol>
+
+        <hr>
+
+        <h2>💡 Feature Suggestions</h2>
+        <p>Have an idea to make Listie better?</p>
+        <p><strong>Email:</strong> <a href="mailto:alwin.moceri@gmail.com">alwin.moceri@gmail.com</a><br>
+        <strong>Subject:</strong> "Feature Request: [Your idea]"</p>
+        <p>We read every suggestion. Popular requests are prioritized for development.</p>
+
+        <hr>
+
+        <h2>🌍 Supported Languages</h2>
+        <p>Listie supports:</p>
+        <ul>
+            <li>🇬🇧 English</li>
+            <li>🇫🇷 Français</li>
+            <li>🇪🇸 Español</li>
+            <li>🇮🇹 Italiano</li>
+            <li>🇩🇪 Deutsch</li>
+        </ul>
+        <p><strong>To change language:</strong> Settings tab → Change language → Pick your language</p>
+
+        <hr>
+
+        <h2>📱 System Requirements</h2>
+        <p><strong>Minimum:</strong></p>
+        <ul>
+            <li>iOS 13.0 or later</li>
+            <li>iPhone 6s or newer</li>
+        </ul>
+
+        <p><strong>Recommended:</strong></p>
+        <ul>
+            <li>iOS 15.0 or later</li>
+            <li>iPhone 8 or newer</li>
+        </ul>
+
+        <hr>
+
+        <div class="highlight">
+            <p><strong>Still need help?</strong></p>
+            <p>Email: <a href="mailto:alwin.moceri@gmail.com">alwin.moceri@gmail.com</a><br>
+            We're here for you.</p>
+        </div>
+
+        <p style="text-align: center; margin-top: 48px;">
+            <strong>🎉 Love Listie?</strong><br>
+            Rate us on the App Store! Your 5-star review helps others discover Listie.
+        </p>
+    </div>
+
+    <footer>
+        <div class="logo">Listie</div>
+        <div class="tagline">Your Meals. 1 Tap.</div>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-service.html">Terms of Service</a>
+            <a href="support.html">Support</a>
+        </div>
+    </footer>
+</body>
+</html>
